@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity calculation - medal classification</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        /*
+            0 0 0 0 - medal classification
+        */
+        p {color: red;} /* Selector specificity (0,0,1) */
+        .message {color: aqua;}
+    </style>
+</head>
+<body>
+    <p class="message">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
